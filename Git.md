@@ -111,7 +111,7 @@
 
 # 简单上传全流程：
 
-1、先创建一个仓库，设置好repository name(就是项目名称)，description可选想设就设，接着设置公开还是私有，勾选Add a REDME file。点击创建仓库，会生成一个链接。
+1、先创建一个仓库(一定要是公开的才可以使用git上传)，设置好repository name(就是项目名称)，description可选想设就设，接着设置公开还是私有，勾选Add a REDME file。点击创建仓库，会生成一个链接。
 
 2、安装git，使用git config -l来查看配置情况。
 
@@ -123,7 +123,7 @@
 
 6、在git中使用ssh -T git@github.com测试是否连接成功。
 
-7、在桌面上创建一个临时文件夹，在临时文件夹中右键点击git Bash Here使用git clone 仓库链接。先把github上创建的新仓库克隆下来(因为会有个隐藏的.git文件)， 把想上传的项目文件复制到克隆下来的文件夹中，那就在那个文件夹下右键点击git Bash Here。
+7、在桌面上创建一个临时文件夹，使用git clone 仓库链接。先把github上创建的新仓库克隆下来(因为会有个隐藏的.git文件)， 把想上传的项目文件复制到克隆下来的文件夹中，那就在那个文件夹下右键点击git Bash Here。
 
 8、先使用git status查看未上传的文件。
 
